@@ -82,10 +82,6 @@ def game_loop():
                     if event.button == 1:
                         ## 셀 값을 받아 소리재생
                         opened = playerB.open(x, y, mineB)
-                        if opened == 9:
-                            #play_Sound()
-                        elif opened == 0:
-                            #bs1.play()
 
 
                     # 우클릭
