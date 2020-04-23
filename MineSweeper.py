@@ -5,7 +5,7 @@ import time
 from random import randint as ri
 
 pygame.init()
-pygame.mixer.init()
+#pygame.mixer.init()
 game_width = 500
 game_height = 500
 
@@ -13,9 +13,9 @@ window_width = 400
 window_height = 400
 screen = pygame.display.set_mode((game_width, game_height))
 pygame.display.set_caption("Mine Sweeper")
-bs = pygame.mixer.Sound('boom.wav')
-bs1 = pygame.mixer.Sound('magic.wav')
-bs2 = pygame.mixer.Sound('shoot.wav')
+#bs = pygame.mixer.Sound('boom.wav')
+#bs1 = pygame.mixer.Sound('magic.wav')
+#bs2 = pygame.mixer.Sound('shoot.wav')
 
 clock = pygame.time.Clock()
 
@@ -38,8 +38,8 @@ def set_Image(img, x, y):
     
 
 # 효과음
-def play_Sound():
-    bs.play()
+#def play_Sound():
+#    bs.play()
 
 
 # start_time = time.time()
@@ -83,9 +83,9 @@ def game_loop():
                         ## 셀 값을 받아 소리재생
                         opened = playerB.open(x, y, mineB)
                         if opened == 9:
-                            play_Sound()
+                            #play_Sound()
                         elif opened == 0:
-                            bs1.play()
+                            #bs1.play()
 
 
                     # 우클릭
