@@ -66,7 +66,7 @@ def game_loop():
         while not(playerB.gameover) and not(playerB.pause):
             ptime = time.time() - start_time
             m,s = ptime//60, ptime%60
-            print(int(m),int(s))
+            #print(int(m),int(s))
             #print(str(int(m))+":"+"%.0f"%s)
             #print(mineB.get_numMines())
     
