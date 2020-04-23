@@ -5,6 +5,7 @@ import time
 from random import randint as ri
 
 pygame.init()
+pygame.mixer.init()
 game_width = 500
 game_height = 500
 
