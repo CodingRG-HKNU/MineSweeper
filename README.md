@@ -1,4 +1,7 @@
 # Python_MineSweeper
+
+[![Run on Repl.it](https://repl.it/badge/github/sws1503/MineSweeper)](https://repl.it/github/sws1503/MineSweeper)
+
 - Python 으로 구현한 지뢰찾기
 * * *
 - Board.py : Mine_Board 와 Player_Board 의 부모 클래스
@@ -8,3 +11,5 @@
 * * *
 - Dic_Board.py : python의 dictionary를 사용한 코드. Mine_Board + Player_Board
 - MineSweeper_dic.py : Dic_Board를 사용한 main()이 있는 클래스
+
+
