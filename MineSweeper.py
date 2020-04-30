@@ -25,6 +25,7 @@ mine = 50
 mineB = Mine_Board.Mine_Board(row, col, mine)
 playerB = Player_Board.Player_Board(row, col, mine)
 
+bg = pygame.transform.scale(pygame.image.load("bg.jpg").convert(),(game_width,game_height))
 
 # 이미지 저장
 img_list = []
@@ -121,7 +122,7 @@ def game_loop():
                             
             '''
             ##이미지 처리 전에 스크린 fill 해줘야 잔상 안남음
-            screen.fill((255,255,255))
+            screen.blit(bg,(0,0))
             # 이미지 처리
             for x in range(row):
                 for y in range(col):
