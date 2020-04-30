@@ -25,7 +25,7 @@ mine = 50
 mineB = Mine_Board.Mine_Board(row, col, mine)
 playerB = Player_Board.Player_Board(row, col, mine)
 
-bg = pygame.transform.scale(pygame.image.load("bg.jpg").convert(),(game_width,game_height))
+bg = pygame.transform.scale(pygame.image.load("bg1.jpg").convert(),(game_width,game_height))
 
 # 이미지 저장
 img_list = []
