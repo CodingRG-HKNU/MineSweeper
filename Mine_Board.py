@@ -28,7 +28,7 @@ class Mine_Board(Board.Board):
                 self.set_cell(x, y, 9)
             else:
                 i -= 1  # i--
-        print(len(self.minePosition),sorted(self.minePosition))
+        #print(len(self.minePosition),sorted(self.minePosition))
 
     def gencoordinates(self, r0, r1, c0, c1):
         seen = set()
