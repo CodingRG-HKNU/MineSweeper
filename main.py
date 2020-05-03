@@ -9,8 +9,8 @@ pygame.init()
 game_width, game_height = (800,600)
 window_width, window_height = (400,400)
 
-margin_width = (game_width - window_width)/2
-margin_height = (game_height - window_height)/2
+margin_width = (game_width - window_width)//2
+margin_height = (game_height - window_height)//2
 
 screen = pygame.display.set_mode((game_width, game_height))
 pygame.display.set_caption("Mine Sweeper")
